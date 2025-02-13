@@ -5,6 +5,12 @@ public class Main {
         Contact papa = new Contact("Papa", "0123456789");
         Contact maman = new Contact("Maman", "9876543210");
 
+        System.out.println("-----------------------------------------------------------------");
+        System.out.println(papa.getInfoContact(new FormatInfoXML()));
+        System.out.println("-----------------------------------------------------------------");
+        System.out.println(maman.getInfoContact(new FormatInfoJSON()));
+        System.out.println("-----------------------------------------------------------------");
+
         Annuaire contacts = new Annuaire();
         contacts.ajouteContact(papa);
         contacts.ajouteContact(maman);

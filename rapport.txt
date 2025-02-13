@@ -16,3 +16,6 @@ Question 3 :
     - Deuxième méthode -> On supprime l'héritage mais on garde l'implémentation. On stocke une instance de ServiceEnvoiPhoto
                             dans EnvoiPhoto
 
+Question 4 :
+    Création d'une interface intitulée FormatInfo. Passage du format en paramètre de getInfoContact dans la classe Contact.
+    Chaque implémentation de l'interface aura le format qu'elle souhaite.

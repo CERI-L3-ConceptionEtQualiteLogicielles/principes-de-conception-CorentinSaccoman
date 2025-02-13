@@ -20,8 +20,8 @@ public class Contact {
         return numero;
     }
 
-    public String getInfoContact() {
-        return toString();
+    public String getInfoContact(FormatInfo f) {
+        return f.getInfoContact(this);
     }
 
     @Override
