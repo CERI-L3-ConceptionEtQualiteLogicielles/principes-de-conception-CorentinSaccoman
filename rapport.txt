@@ -6,3 +6,6 @@ Question 1 :
     - Problème n°3 -> Single responsibility : la classe contact ne doit gérer que les contacts (pas la liste de tous les
                                                 contacts, sinon on parle d'un annuaire)
     - Problème n°4 -> Ségrégation d'interface : ContactService ne doit gérer que les opé sur les contacts, pas le mailing
+
+Question 2 :
+    Interface Envoi -> Il n'y aura plus qu'à réaliser les implémentations voulues
