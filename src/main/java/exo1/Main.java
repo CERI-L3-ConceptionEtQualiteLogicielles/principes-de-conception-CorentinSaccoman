@@ -17,6 +17,9 @@ public class Main {
 
         EnvoiMail mail = new EnvoiMail();
         mail.envoi(maman, "Coucou (version mail)");
+
+        EnvoiPhoto photo = new EnvoiPhoto();
+        photo.envoi(maman, "Coucou (version photo)");
     }
 
 }
