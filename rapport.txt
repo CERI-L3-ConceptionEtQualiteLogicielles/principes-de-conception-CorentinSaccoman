@@ -5,3 +5,4 @@ Question 1 :
     - Problème n°2 -> Répétition de code dans afficheContacts (doit utiliser toString ou getInfoContact)
     - Problème n°3 -> Single responsibility : la classe contact ne doit gérer que les contacts (pas la liste de tous les
                                                 contacts, sinon on parle d'un annuaire)
+    - Problème n°4 -> Ségrégation d'interface : ContactService ne doit gérer que les opé sur les contacts, pas le mailing
