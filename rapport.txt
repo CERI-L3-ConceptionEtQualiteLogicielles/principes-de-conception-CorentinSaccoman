@@ -1,0 +1,7 @@
+Corentin SACCOMAN
+
+Question 1 :
+    - Problème n°1 -> Répétition de code : getInfoContact et toString
+    - Problème n°2 -> Répétition de code dans afficheContacts (doit utiliser toString ou getInfoContact)
+    - Problème n°3 -> Single responsibility : la classe contact ne doit gérer que les contacts (pas la liste de tous les
+                                                contacts, sinon on parle d'un annuaire)
