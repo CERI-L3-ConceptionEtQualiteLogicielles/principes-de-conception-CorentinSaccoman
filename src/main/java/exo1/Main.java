@@ -2,8 +2,8 @@ package exo1;
 
 public class Main {
     public static void main(String [] args) {
-        Contact papa = new Contact("Papa", "0123456789");
-        Contact maman = new Contact("Maman", "9876543210");
+        Contact papa = new Contact.ContactBuilder("Papa", "0123456789").addVille("Salon").build();
+        Contact maman = new Contact.ContactBuilder("Maman", "9876543210").addEmail("maman@gmail.com").build();
 
         System.out.println("-----------------------------------------------------------------");
         System.out.println(papa.getInfoContact(new FormatInfoXML()));

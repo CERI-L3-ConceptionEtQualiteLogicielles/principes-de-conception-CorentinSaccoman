@@ -19,3 +19,6 @@ Question 3 :
 Question 4 :
     Création d'une interface intitulée FormatInfo. Passage du format en paramètre de getInfoContact dans la classe Contact.
     Chaque implémentation de l'interface aura le format qu'elle souhaite.
+
+Question 5 :
+    Adaptation des classes au nouveau format de contact
