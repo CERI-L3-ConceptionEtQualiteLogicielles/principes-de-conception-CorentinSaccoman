@@ -9,3 +9,10 @@ Question 1 :
 
 Question 2 :
     Interface Envoi -> Il n'y aura plus qu'à réaliser les implémentations voulues
+
+Question 3 :
+    - Première méthode -> EnvoiPhoto étend ServiceEnvoiPhoto et implémente Envoi. L'appel de la méthode envoi de EnvoiPhoto
+                            appelle envoiPhoto
+    - Deuxième méthode -> On supprime l'héritage mais on garde l'implémentation. On stocke une instance de ServiceEnvoiPhoto
+                            dans EnvoiPhoto
+
