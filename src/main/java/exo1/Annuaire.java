@@ -3,7 +3,7 @@ package exo1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Annuaire implements ContactService{
+public class Annuaire implements AnnuaireService {
     private List<Contact> lesContacts = new ArrayList<>();
 
     public void ajouteContact(Contact contact) {
